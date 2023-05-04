@@ -1,5 +1,5 @@
 # Compiler
-FROM node:20.0.0-bullseye-slim as compiler
+FROM node:20.1.0-bullseye-slim as compiler
 LABEL maintainer="Spencer-0003"
 
 WORKDIR /app
@@ -10,7 +10,7 @@ COPY . ./
 RUN yarn build
 
 # Cleaner
-FROM node:20.0.0-bullseye-slim as cleaner
+FROM node:20.1.0-bullseye-slim as cleaner
 LABEL maintainer="Spencer-0003"
 
 WORKDIR /app
@@ -20,7 +20,7 @@ COPY --from=compiler /app/dist ./dist
 RUN yarn --production=true
 
 # Runner
-FROM node:20.0.0-bullseye-slim
+FROM node:20.1.0-bullseye-slim
 LABEL maintainer="Spencer-0003"
 
 RUN apt-get update && apt-get install -y bash ffmpeg && rm -rf /var/lib/apt/lists/*
