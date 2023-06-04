@@ -901,10 +901,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-plugin-jsdoc@46.2.2:
-  version "46.2.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-46.2.2.tgz#9671bd037cdf824335250de798be73434c799236"
-  integrity sha512-s85g93FT54emQX/h+Aoh1+SFrIz/C327gn+t8YS4md82/iNFWNp+qjT88MNH9XwD0rrhUqxE39xh46+RTGRyYw==
+eslint-plugin-jsdoc@46.2.3:
+  version "46.2.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-46.2.3.tgz#4b5ddeffdcea45529880672dc3a89d80b2a032cf"
+  integrity sha512-06s2RmIyichD2+CYQzSq4DH5YAaXdYm6WPe6C8daf7vr6MxzJiYJYOKxNYLDdQRTRE2JAW1kfU1OYRxvAxDzjA==
   dependencies:
     "@es-joy/jsdoccomment" "~0.39.4"
     are-docs-informative "^0.0.2"
