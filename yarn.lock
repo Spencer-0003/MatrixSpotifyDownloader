@@ -525,6 +525,11 @@ braces@^3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
+builtin-modules@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-3.3.0.tgz#cae62812b89801e9656336e46223e030386be7b6"
+  integrity sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw==
+
 bytes@3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.2.tgz#8b0beeb98605adf1b128fa4386403c009e0221a5"
@@ -901,10 +906,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-plugin-jsdoc@46.2.4:
-  version "46.2.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-46.2.4.tgz#90734a47cd746863e40d0e57e5f273672d50f94e"
-  integrity sha512-QVURyOFEqkUswFOou0w1rfHshRfah7EeTd9laVllO6tb/+ymjPY1IkP16e24yX0BB7jRy8krJi99jHG2UWAPog==
+eslint-plugin-jsdoc@46.2.5:
+  version "46.2.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-46.2.5.tgz#e13b00d83959d098ac2090e1b79fe9ec51c2adc8"
+  integrity sha512-Rmd0pb6S5fv9/lGbJMiVUZn56XvjKTGQoq9H5yfNjj6jcJHkTaq+Pqj2KHK/8EO01f8auFFy2kNL64cFisMEDw==
   dependencies:
     "@es-joy/jsdoccomment" "~0.39.4"
     are-docs-informative "^0.0.2"
@@ -912,6 +917,7 @@ eslint-plugin-jsdoc@46.2.4:
     debug "^4.3.4"
     escape-string-regexp "^4.0.0"
     esquery "^1.5.0"
+    is-builtin-module "^3.2.1"
     semver "^7.5.1"
     spdx-expression-parse "^3.0.1"
 
@@ -1493,6 +1499,13 @@ ipaddr.js@1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
+
+is-builtin-module@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/is-builtin-module/-/is-builtin-module-3.2.1.tgz#f03271717d8654cfcaf07ab0463faa3571581169"
+  integrity sha512-BSLE3HnV2syZ0FK0iMA/yUGplUeMmNz4AW5fnTunbCIqZi4vG3WjJT9FHMy5D69xmAYBHXQhJdALdpwVxV501A==
+  dependencies:
+    builtin-modules "^3.3.0"
 
 is-extglob@^2.1.1:
   version "2.1.1"
